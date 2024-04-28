@@ -97,7 +97,6 @@ Configuração colunas (corpo) */
     width: 270px;
     float: left;
     margin: 0 0 20px 195px;
-    background: blue;
 }
 
 #duas-colunas #primario {
@@ -113,7 +112,6 @@ Configuração colunas (corpo) */
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: green;
 }
 
 /*******
@@ -129,7 +127,7 @@ h2 {
     font-size: 1em;
     background: #294c71;
     color: #fff;
-    padding: 5px;
+    padding: 8px 5px 4px 5px;
 }
 
 .caixa-conteudo {
@@ -177,6 +175,37 @@ input.submit {
     color: #fff;
     background-color: #b10333;
     border: 2px solid #870529;
+}
+
+/*******************
+Formatando Imagem */
+
+img {
+    border: 2px solid #dfdfdf;
+}
+
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/***********************
+Formatando cabeçalhos */
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 6px 2px 2px 2px;
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3 {
+    background: #de003e;
 }
 
 /********
